@@ -1,0 +1,30 @@
+# Vivado 生成物
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.dcp
+*.bit
+*.ltx
+*.rpt
+*.backup.*
+vivado_*.backup.*
+
+# 针对你截图中的特定目录 (非常重要)
+DDC_8lane.cache/
+DDC_8lane.hw/
+DDC_8lane.ip_user_files/
+DDC_8lane.runs/
+DDC_8lane.sim/
+.Xil/
+
+# 仿真
+xsim.dir/
+*.vcd
+*.fst
+*.wlf
+
+# 系统
+.DS_Store
+Thumbs.db
